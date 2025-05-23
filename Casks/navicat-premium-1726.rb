@@ -1,6 +1,6 @@
 cask "navicat-premium-1726" do
   version "17.2.6"
-  sha256 "22e9c66b620193a307adbe86ff34acf6161bfb6cff6ec2f5171a4837aa6b2040"
+  sha256 "46ed154fadcbff90f06147ecee24106a59a2bf0953565370dacd850b3e162095"
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/navicat-premium-#{version}.dmg"
   name "Navicat Premium"
