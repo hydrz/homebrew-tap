@@ -1,6 +1,6 @@
 cask "tg-pro" do
   version "2.97"
-  sha256 "1541cda77e4bf757fb0a9480181496f61cd5175e4326573891795edc7fed4972"
+  sha256 "498915b984a510915af3d60552726ee614ef740a457672498c09c026b795eeaa"
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/tg-pro-#{version}.dmg"
   name "TG Pro"

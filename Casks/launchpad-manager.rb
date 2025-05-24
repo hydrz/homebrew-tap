@@ -1,6 +1,6 @@
 cask "launchpad-manager" do
   version "1.0.14"
-  sha256 "4f548ed98808f73e2b11557066f62bb9a0347c6adbdf620d55ff31523b88db7d"
+  sha256 "48a63a9d946c0a7ed6c9b390292070008f3780b378059c71ce0d459fb621c32b"
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/launchpad-manager-#{version}.dmg"
   name "Launchpad Manager"
