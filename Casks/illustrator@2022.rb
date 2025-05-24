@@ -1,10 +1,10 @@
-cask "illustrator-2022" do
+cask "illustrator@2022" do
   version "2022"
   sha256 "40f5d195b96281ece5248915f87131d8a1d4563931430d318a20ceac0e0fa655"
 
-  url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/illustrator-2022.dmg",
+  url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/illustrator-#{version}.dmg",
 
-  name "Adobe Illustrator 2022"
+  name "Adobe Illustrator #{version}"
   desc "包含 AI 主程序、破解补丁、AntiCC 及辅助设置脚本"
 
   homepage "https://www.yuque.com/islandgg13/tdg1oz/bpzg26?#%20%E3%80%8AMac%E7%89%88Illustrator%E4%B8%8B%E8%BD%BD%E3%80%8B"

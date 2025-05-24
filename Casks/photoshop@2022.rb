@@ -1,11 +1,11 @@
-cask "photoshop-2022" do
+cask "photoshop@2022" do
   version "2022"
   sha256 "cb70a189d1e9a40d91810566659fc3c8b800ec7e1ab829ac8b8a0325f15e8125"
 
-  url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/photoshop-2022.dmg",
+  url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/photoshop-#{version}.dmg",
 
-  name "Adobe Photoshop 2022 全套安装包"
-  desc "Photoshop 2022 完整安装、破解补丁及辅助工具"
+  name "Adobe Photoshop #{version} 全套安装包"
+  desc "Photoshop #{version} 完整安装、破解补丁及辅助工具"
   homepage "https://www.yuque.com/docs/share/df396917-846c-412b-9114-4154650ff12f?#"
 
   caveats <<~EOS

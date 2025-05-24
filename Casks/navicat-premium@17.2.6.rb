@@ -1,4 +1,4 @@
-cask "navicat-premium-1726" do
+cask "navicat-premium@17.2.6" do
   version "17.2.6"
   sha256 "7872e35621d9c87763ab175b72a259cc6c13ddc8c44c16b0246934b02416945e"
 
