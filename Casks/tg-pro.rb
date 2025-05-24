@@ -1,4 +1,4 @@
-cask "tg-pro@2.97" do
+cask "tg-pro" do
   version "2.97"
   sha256 "1541cda77e4bf757fb0a9480181496f61cd5175e4326573891795edc7fed4972"
 

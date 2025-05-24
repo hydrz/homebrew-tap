@@ -1,4 +1,4 @@
-cask "launchpad-manager@1.0.14" do
+cask "launchpad-manager" do
   version "1.0.14"
   sha256 "4f548ed98808f73e2b11557066f62bb9a0347c6adbdf620d55ff31523b88db7d"
 
