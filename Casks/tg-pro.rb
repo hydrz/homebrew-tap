@@ -3,7 +3,7 @@ cask "tg-pro" do
   sha256 "498915b984a510915af3d60552726ee614ef740a457672498c09c026b795eeaa"
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/tg-pro-#{version}.dmg",
-      verified: "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/"
+      verified: "pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/"
   name "TG Pro"
   desc "Temperature monitoring, fan control and diagnostics"
   homepage "https://www.tunabellysoftware.com/tgpro/"

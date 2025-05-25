@@ -3,7 +3,7 @@ cask "navicat-premium" do
   sha256 "8b055deb0842da4e2f9d64c1da2f8bdfe4f2c0f2ebc139c8d3cc364dcd87d7c6"
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/navicat-premium-#{version}.dmg",
-      verified: "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/"
+      verified: "pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/"
   name "Navicat Premium"
   desc "Database administration and development tool"
   homepage "https://www.navicat.com/products/navicat-premium"
