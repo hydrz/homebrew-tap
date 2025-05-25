@@ -4,8 +4,13 @@ cask "js-design" do
   version "Beta"
   sha256 :no_check
 
-  # https://img.js.design/assets/download/beta/即时设计 Mac-M1 版（Beta）.dmg
-  url "https://img.js.design/assets/download/beta/%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1%20Mac#{arch}%20%E7%89%88%EF%BC%88Beta%EF%BC%89.dmg",
+  url = if version == "Beta"
+    "https://img.js.design/assets/download/beta/%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1%20Mac#{arch}%20%E7%89%88%EF%BC%88Beta%EF%BC%89.dmg"
+  else
+    "https://img.js.design/assets/download/%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1%20Mac#{arch}%E7%89%88.dmg"
+  end
+
+  url url,
       verified: "img.js.design/assets/download/"
   name "即时设计"
   desc "Tool for UI/UX design and collaboration"
