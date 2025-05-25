@@ -4,17 +4,23 @@ cask "navicat-premium" do
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/navicat-premium-#{version}.dmg"
   name "Navicat Premium"
-  desc "多连接数据库管理开发"
-  homepage "https://foxirj.com/navicat-premium-mac.html"
+  desc "Database administration and development tool"
+  homepage "https://www.navicat.com/products/navicat-premium"
 
   livecheck do
-    url "https://foxirj.com/navicat-premium-mac.html"
-    regex(/Navicat Premium (\d+(?:\.\d+)+) 多连接数据库管理开发/i)
+    url "https://updater.navicat.com/mac/v#{version.major}/navicat_updates.php?appName=Navicat%20Premium"
+    strategy :sparkle, &:short_version
   end
+
+  conflicts_with cask: "navicat-premium@15"
+  depends_on macos: ">= :big_sur"
 
   app "Navicat Premium.app"
 
   zap trash: [
-    "~/Library/Application Support/Navicat Premium",
+    "~/Library/Application Support/PremiumSoft CyberTech/Navicat CC/Navicat Premium",
+    "~/Library/Caches/com.apple.helpd/Generated/Navicat Help*",
+    "~/Library/Preferences/com.navicat.NavicatPremium.plist",
+    "~/Library/Saved Application State/com.navicat.NavicatPremium.savedState",
   ]
 end

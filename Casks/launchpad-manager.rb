@@ -4,12 +4,15 @@ cask "launchpad-manager" do
 
   url "https://pub-ba6dbd1d80b247e8bc4a9fd9e197bac0.r2.dev/apps/darwin/launchpad-manager-#{version}.dmg"
   name "Launchpad Manager"
-  desc "Launchpad启动台图标管理工具"
+  desc "Tool to manage the launchpad"
   homepage "https://launchpadmanager.com/"
 
   app "Launchpad Manager.app"
 
   zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.attilamiklosi.yos.launchpadmanager.sfl*",
     "~/Library/Application Support/Launchpad Manager",
+    "~/Library/Preferences/com.attilamiklosi.yos.launchpadmanager.plist",
+    "~/Library/Saved Application State/com.attilamiklosi.yos.launchpadmanager.savedState",
   ]
 end
